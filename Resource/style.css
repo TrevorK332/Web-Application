@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-sarif;
+}
+body{
+     background-color: black;
+}
+.form{
+      background-color: grey;
+      height: 100yh;
+      width: 350px;
+      border: 1px solid black;
+      border-radius: 10px;
+      margin: 20px;
+      padding: 20px;
+}
+.input-box{
+           margin-top: 10px;
+           color: white;
+}
+.input-box input{
+                 border-top: none;
+                 border-right: none;
+                 border-left: none;
+                 border-bottom: 2px solid black;
+                 border-radius: 10px;
+                 padding: 6px;
+}
+::placeholder{
+      font-size: 10px;
+}
+.age{
+     color: white;
+}
+.btn{
+           text-align: center;
+}
+.btn input{
+           padding: 0 40px;
+           background-color:  dark red;
+           color: white;
+           border: none;
+           border-radius: 3px;
+           cursor: pointer;
+}
+.btn input:hover{
+                 background-color: white;
+                 color: black;
+}

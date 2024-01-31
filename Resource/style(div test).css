@@ -1,0 +1,42 @@
+h2{
+   color: white;
+   font-size: 22px;
+   text-align: centre;
+   text-decoration: underline;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: Red;
+}
+.navbar .logo a{
+         font-size: 35px;
+         font-weight: 600;
+         color: white;
+         text-decoration: none;
+}
+.navbar .all-links{
+display: flex;
+position: relative;
+}
+.navbar .all-links a{
+     font-size: 18px;
+     font-weight: 500;
+     color: white;
+     padding: 6px 0;
+     text-decoration: none;
+
+}
+.navbar .all-links a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navbar .all-links li{
+    text-decoration: none;
+    list-decoration: none;
+    margin: 0px 8px;
+
+}
